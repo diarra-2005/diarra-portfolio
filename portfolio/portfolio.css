@@ -1,0 +1,142 @@
+body{
+    background-color: #FAF9F6;
+    /*j'ai utilisé des polices de caractère*/
+    font-family : « Montserrat », sans empattement ;
+    font-optical-sizing : auto ;
+    font-size: larger;
+    font-style : normal ;
+    
+}
+
+
+h1,h2,h3 {
+    font-family: "Cantora One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8C0303; 
+  }
+
+  /*ici on a l'entete du corp*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bbd2e1;
+    padding: 10px 20px;
+    
+    
+}
+
+nav a{ 
+    color: #000000;
+    text-decoration: none;
+    margin-left: 20px;
+    border-bottom: 1px solid ;
+}
+nav a:hover{ 
+    color: #8C0303;
+    border-bottom-color: #8C0303;
+}
+.titre h2{
+    position: relative;
+    margin-left: 250px;
+}
+/*moi*/
+.moi img{
+    width: 230px;
+    height: 300px;
+    border: 0.5px solid #8C0303;
+    border-radius: 500px ;
+    background-color: #bbd2e1;
+}
+.moi {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.moi h2{
+    align-items: center;
+}
+strong{
+    color: #8C0303;
+}
+.et {
+    border-bottom: 2px solid #8C0303;
+}
+/*projets*/
+.photo img {
+    position: relative;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.photo {
+    background-color: #bbd2e1;
+   
+}
+/*compétance*/
+   ul:hover {
+    color: #8C0303;
+   }
+   ul {
+    border-left: 2px solid #8C0303;
+    border-bottom: 2px solid #8C0303;
+   }
+/*formulaire*/
+fieldset {
+    border: 2px solid white;
+    background-color:  #bbd2e1;
+    position: relative;
+    width: 25%;
+    height: 67%;
+    border-radius: 10px 5px 10px 5px;
+    margin-left: 800px;
+    /*police google*/
+    font-family : « Montserrat », sans empattement ;
+    font-optical-sizing : auto ;
+    font-weight : <poids> ;
+    font-style : normal ;
+    
+}
+button{
+    width: 35%;
+    margin-left: 80px;
+    background-color: #8C0303;
+    border-radius: 4px;
+    color: #bbd2e1;
+    border: 1px white;
+}
+input{
+    width: 300px;
+}
+textarea{
+    width: 300px;
+
+}
+.titreform {
+    text-align: center;
+}
+/*pied de page*/
+footer {
+    background-color: #bbd2e1;
+    padding: 10px;
+    
+    /* police de caractère google*/
+    font-family : « Montserrat », sans empattement ;
+    font-optical-sizing : auto ;
+    font-weight : <poids> ;
+    font-style : normal ;
+}
+footer img:hover{
+    color: #8C0303;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer p{
+   color: #8C0303;
+    
+}
